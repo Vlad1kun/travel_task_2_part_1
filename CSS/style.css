@@ -1,0 +1,422 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  position: relative;
+  z-index: -2;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  background-image: url('../accets/img/bg.png');
+  background-size: auto;
+  height: 3735px;
+  width: 1440px;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+
+.section_1 {
+  display: flex;
+  background-color: rgba(242, 120, 92, 0.7);
+  height: 90px;
+  font-family: red hat text;
+  font-weight: 500;
+}
+
+.logo {
+  background-image: url(../accets/svg/logo.svg);
+  background-size: auto auto;
+  width: 216px;
+  height: 31px;
+  margin-top: 25px;
+  margin-left: 120px;
+}
+
+.nav {
+  margin-left: 158px;
+  margin-top: 35px;
+}
+
+.nav_ul {
+  display: flex;
+  
+}
+
+.nav_link {
+  color: white;
+  margin-right: 42px;
+}
+
+.nav_link_end {
+  color: white;
+}
+
+.login {
+  background-color: #0D606F;
+  width: 103px;
+  height: 41px;
+  border-radius: 10px;
+  align-self: center;
+  margin-left: 196px;
+  
+}
+
+.span_login {
+  padding: 10px 0 10px 30px;
+  display: inline-block;
+  color: white;
+  
+}
+
+.Explore_box {
+  width: 892px;
+  height: 422px;
+  margin: 32px 0 0 120px;
+  line-height: 96px;
+  font-family: Aleo;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Explore_h1 {
+  font-size: 80px;
+  color: white;
+  width: 750px;
+}
+
+.Explore_p {
+  font-style: italic;
+  color: white;
+}
+
+.form {
+  display: flex;
+}
+
+.form_input {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 892px;
+  height: 95px;
+  border-radius: 16px;
+  font-size: 24px;
+  border: none;
+}
+
+.form input::placeholder {
+  color: #F2785C;
+  font-size: 24px;
+}
+
+.form input[type="text" i] {
+  padding-left: 41px;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Aleo;
+  color: #F2785C
+}
+
+.form_btn {
+  position: absolute;
+  color: red;
+  margin: 18px 18px 18px 646px;
+  width: 228px;
+  height: 59px;
+  background-color: #0D606F;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  font-family: red hat text;
+  border: none;
+}
+
+.section_3 {
+  margin: 301px 132px 97px 131px;
+  width: 1177px;
+  height: 247px;
+}
+
+.steps_3_h2 {
+  color: #F2785C;
+  padding-left: 283px;
+  font-size: 40px;
+  line-height: 52.92px;
+  font-family: red hat text;
+  font-weight: 600;
+  
+}
+
+.steps_3_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  font-family: 'Aleo';
+  font-size: 20px;
+  color: #0D606F;
+  font-weight: 400;
+}
+
+.velo {
+  width: 247px;
+  height: 154px;
+}
+
+.share {
+  width: 222px;
+  height: 154px;
+}
+
+.recommendations {
+  width: 317px;
+  height: 154px;
+}
+
+.velo_svg {
+  background-image: url('../accets/svg/velo.svg');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.share_svg {
+  background-image: url('../accets/svg/share.svg');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.recommendations_svg {
+  background-image: url('../accets/svg/reco.svg');
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.p_velo {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.p_share {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.p_recommendations {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.popular {
+  color: #F2785C;
+  font-family: Red hat text;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.popular_img {
+  display: flex;
+  margin-top: 46px;
+}
+
+.spain {
+  margin-right: 60px;
+}
+
+.usa {
+  margin-left: 60px;
+}
+
+.label_img {
+  display: flex;
+  margin: 24px auto 0 auto;
+  width: 80px;
+  height: 20px;
+}
+
+.label_1 {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(242, 120, 92, 0.5);
+  margin-right: 10px;
+
+}
+
+.label_2 {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color:rgba(242, 120, 92);
+
+}
+
+.label_3 {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(242, 120, 92, 0.5);
+  margin-left: 10px;
+
+}
+
+.find_link {
+  display: block;
+  width: 228px;
+  height: 59px;
+  background-color: #0D606F;
+  margin: 0px auto;
+  border-radius: 10px;
+  margin-top: 40px;
+
+}
+
+.p_find {
+  position: relative;
+  font-size: 24px;
+  color: white;
+  margin: auto;
+  
+  
+}
+
+.p_find::before {
+  content: url(../accets/svg/arrow.svg);
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  position: relative;
+  right: 12px;
+  top: 10px;
+
+}
+
+.section_5 {
+  margin-top: 80px;
+  font-family: Aleo;
+}
+
+.h2_travel {
+  font-size: 40px;
+  color: #F2785C;
+  text-align: center;
+  font-weight: 500;
+  font-family: Red hat text;
+}
+
+.stories {
+  margin: 80px 120px 0 120px;
+  font-family: Aleo;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0D606F;
+}
+
+.stories img {
+  border-radius: 16px;
+}
+
+.stories h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.story {
+  width: 760px;
+  height: 184px;
+  margin-left: 30px;
+}
+
+.storys {
+  display: flex;
+  margin-top: 30px;
+}
+
+.link_story {
+  font-family: Aleo;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0D606F;
+  border-bottom: 2px solid #0D606F;
+
+}
+
+.see_link {
+  display: block;
+  width: 228px;
+  height: 59px;
+  background-color: #0D606F;
+  margin: 0px auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-family: Red hat text;
+  position: relative;
+
+}
+
+.p_see {
+  display: block;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 12px;
+  
+  
+}
+
+.p_see::before {
+  content: url(../accets/svg/arrow.svg);
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  position: relative;
+  right: 12px;
+  top: 10px;
+
+}
+
+.footer {
+  margin-top: 51px;
+  display: flex;
+  font-family: Red hat text;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.All {
+  margin-top: 15px;
+  margin-left: 590px;
+}
+
+.div_social {
+  margin-top: 8px;
+  margin-left: 308px;
+}
+
+.div_social a {
+  margin-left: 20px;
+}
+
+
